@@ -6,9 +6,12 @@
       required autofocus>
     <input type="password" name="password" id="password" formControlName="password" class="form-control"
       placeholder="Password" required autofocus>
-    <div class="mt-4 ">
-      <button class="btn btn-primary w-100" type="button" (click)="onSubmit()">Login</button>
-
+    <div class="row mt-4">
+      <div class="col-sm-12 text-center">
+        <button class="btn btn-primary btn-md me-3" type="button" (click)="onSubmit()">Login</button>
+        <button class="btn btn-primary btn-md ms-3" type="button" (click)="onPatch()">Patch detail.</button>
+      </div>
     </div>
+
   </form>
 </div>
