@@ -38,4 +38,14 @@ export class AppComponent {
 
 
   }
+  onPatch() {
+    this.loginForm.patchValue({
+
+      email: 'mrunal@gmail.com',
+      password: 'pin'
+
+
+
+    })
+  }
 }
